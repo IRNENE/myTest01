@@ -7,7 +7,7 @@ header{
 }
 
 main{
-    min-width: 800px;
+    min-height: 800px;
 }
 nav{
     & ul{
@@ -16,8 +16,8 @@ nav{
         margin: 0;
         & li{
             display: inline-block;
-            & :hover{
-                background-color:blue;
+            &:hover{
+                background-color:rgb(255, 101, 44);
             }
 
         }
